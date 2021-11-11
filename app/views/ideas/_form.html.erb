@@ -11,22 +11,25 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= form.label :name %>
-    <%= form.text_field :name %>
+  <div class="mb-3">
+    <div class="field">
+      <%= form.label :name, 'Nome', :class =>"form_label" %>
+      <%= form.text_field :name, :class=>"form-control" %>
+    </div>
   </div>
 
   <div class="field">
-    <%= form.label :description %>
-    <%= form.text_area :description %>
+    <%= form.label :description, 'Descrição', :class =>"form_label" %>
+    <%= form.text_area :description, :class=>"form-control" %>
   </div>
 
   <div class="field">
-    <%= form.label :picture %>
-    <%= form.file_field :picture %>
+    <%= form.label :picture, 'Imagem', :class =>"form_label" %>
+    <%= form.file_field :picture, :class=>"form-control" %>
   </div>
 
+  <br>
   <div class="actions">
-    <%= form.submit %>
+    <%= form.submit "Salvar" %>
   </div>
 <% end %>

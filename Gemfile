@@ -11,6 +11,7 @@ gem 'sqlite3', '~> 1.4'
 gem 'carrierwave', '~> 2.2', '>= 2.2.2'
 gem 'mini_magick', '~> 4.11'
 gem 'devise', '~> 4.8'
+gem 'gravtastic', '~> 3.2', '>= 3.2.6'
 
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
